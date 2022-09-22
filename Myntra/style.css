@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    height: 40px;
+    
+    /* margin: 20px;
+    margin-left: 30px; */
+}
+
+.container{
+    height:80px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box{
+    /* height: 30px;
+    width: 30px; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.box-iteam{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    list-style: none;
+    margin: 10px;
+ 
+}
+sup{
+    color: red;
+    font-size: x-small;
+    font-weight: bold;
+}
+input{
+    height: 40px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.icon{
+    
+    width: 20%;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+.bi { 
+    font-size: 20px;
+}
+
+.img1{
+    margin-top: 30px;
+    height:60vh;
+    width: 98%;
+    background-image: url("https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/4/9/90f7c989-c319-4472-95a8-2619d90c31e31649528657708-Premium-Watches_Dk.jpg");
+    /* display: flex; */
+}
+h1 {
+    margin: 40px;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.cotainer1{
+    height: 65vh;
+    width:100%;
+    /* background-image: url("./Asccets/deals1.jpg"); */
+    padding: 10px;
+    /* background-color: blue; */
+    /* display: flex;
+    flex-wrap: wrap; */
+
+    }
+
+    .cotainer1{
+        height: 50vh;
+        width:100%;
+        
+        
+        display: flex;
+        
+        
+    
+        }
+    .box-image-1{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/deal.jpg");
+        background-repeat: no-repeat;
+        
+        margin-left: 3px;
+        background-size: contain;
+    }
+
+    .box-image-2{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/deals1.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .box-image-3{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/deal-a.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .box-image-4{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/deal-b.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .box-image-5{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/deal-c.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .box-image-6{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/deal-d.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .box-image-7{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/deal-e.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }    
+
+    .brandh1{
+        /* margin-bottom: 40px; */
+        margin-top: 50px;
+        margin: 40px;
+        font-size: 30px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        
+    }
+
+    .container-Brand{
+        height: 40vh;
+        width:100%;
+        /* background-color: blue; */
+        flex:1;
+        
+        display: flex;   
+    }
+
+    .Brand-image-1{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/brands/brana-1.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .Brand-image-2{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/brands/brand-2.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .Brand-image-3{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/brands/brand-3.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .Brand-image-4{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/brands/brand-4.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .Brand-image-5{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/brands/brand-5.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .Brand-image-6{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/brands/brand-6.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .Brand-image-7{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/brands/brand-7.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .Brand-image-8{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/brands/brand-8.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .container-Brand-1{
+        height: 10vh;
+        width:100%;
+        /* background-color: blue; */
+        /* flex:1; */
+        
+        display: flex;  
+    }
+    .Brand-image-9{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/brands/brand-9.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .Brand-image-10{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/brands/brand-10.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .Brand-image-11{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/brands/brand-11.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .Brand-image-12{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/brands/brand-12.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .Brand-image-13{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/brands/brand-13.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .Brand-image-14{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/brands/brand-14.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .Brand-image-15{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/brands/brand-15.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
+    .Brand-image-16{
+        width: 250%;
+        height: 300px;
+        background-image: url("./Asccets/brands/brand-16.jpg");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        background-size: contain;
+    }
